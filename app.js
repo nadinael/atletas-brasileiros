@@ -38,14 +38,12 @@ function buscar() {
                     <a href="${item.wiki}" target="_blank">Saiba mais</a>
             </div>`;
         }
-
-        if (!conteudo) {
+       
+    }
+            if (!conteudo) {
             conteudo = `<div class="item-resultado"> <p>Nenhuma informação encontrada.</p> </div>
         `;;
         }
-     
-    
-    }
     
     section.innerHTML = conteudo;   
 }
